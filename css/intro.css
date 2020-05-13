@@ -1,0 +1,19 @@
+#intro{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(-45deg,#13B88F,#009094, #006684, #023D5F);
+    background-size: 400%, 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+    display: table;
+}
+
+#intro .container{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#intro h1{
+    color: #FFEDCB;
+}
