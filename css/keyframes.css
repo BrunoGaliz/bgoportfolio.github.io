@@ -9,3 +9,16 @@
         background-position: 0% 50%;
     }
 }
+
+
+@keyframes up-and-down{
+    0%{
+        transform: translate(-50%,15%);
+    }
+    50%{
+        transform: translate(-50%,-15%);
+    }
+    100%{
+        transform: translate(-50%,15%);
+    }
+}

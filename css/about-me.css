@@ -2,3 +2,22 @@
     height: 100vh;
     width: 100%;
 }
+
+@media screen and (max-width: 900px){
+    #intro .toolbar ul li{
+        width: 50%;
+    }
+    
+    #intro .container .content .presentation h1{
+        font-size: 32px;
+    }
+
+    #intro .low-down{
+        padding: 15px;
+    }
+
+    #intro .low-down img{
+        width: 30px;
+        height: 30px;
+    }
+}

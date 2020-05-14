@@ -2,12 +2,15 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-}
-
-.container{
-    margin: 0px 100px;
+    font-family: sans-serif;
 }
 
 .content{
     padding: 40px;
+}
+
+@media screen and (max-width: 390px){
+    #intro .container .content{
+        padding: 40px 20px;
+    }
 }

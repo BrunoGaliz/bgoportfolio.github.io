@@ -31,26 +31,43 @@
     <link rel="stylesheet" href="./css/contact-me.css">
     <link rel="icon" type="image/svg" href="web-programming.svg">
 
+    <!-- Fonts -->
+    <link rel="stylesheet" href="css/fonts.css">
+
     <!-- JS import -->
+    <script src="./js/scroll.js"></script>
 
 </head>
 <body>
-
+    <!-- Intro section -->
     <section id="intro">
+        <header class="toolbar">
+           <ul>
+               <li class="contact" onclick="goDowntoContactMe()">Contato</li>
+               <li class="about" onclick="goDownToAboutMe()">Sobre</li>
+           </ul> 
+        </header>
         <div class="container">
             <div class="content">
-                <h1>Bruno Galiz de Oliveira</h1>
-                <p>
-                    <span>Full-Stack Developer</span>
-                </p>
+                <div class="presentation">
+                    <h1>Bruno Galiz de Oliveira</h1>
+                    <p>
+                        <span>Full-Stack Developer</span>
+                    </p>
+                </div>
             </div>
+        </div>
+        <div class="low-down" onclick="goDownToAboutMe()">
+            <img src="./icons/multimedia-option.svg">
         </div>
     </section>
 
+    <!-- This section tells about my profissional information -->
     <section id="about-me">
-
+        
     </section>
     
+    <!-- This section shows how to contact me -->
     <section id="contact-me">
 
     </section>
