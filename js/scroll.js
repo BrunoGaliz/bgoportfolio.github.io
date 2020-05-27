@@ -2,13 +2,13 @@
 /**
  * This function brings me to the bottom of the page that shows informations about me.
  */
-function goDownToAboutMe(){
+function GoDownToAboutMe(){
     document.getElementById('about-me').scrollIntoView({behavior: 'smooth'});
 }
 
 /**
  * This function brings me to the bottom of the page to show how to contact me.
  */
-function goDowntoContactMe(){
+function GoDowntoContactMe(){
     document.body.scrollIntoView({behavior: 'smooth',block: 'end'});
 }
