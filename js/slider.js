@@ -16,7 +16,7 @@ $(document).ready(function() {
             } 
         });
         $('#database').lightSlider({
-            autoWidth:true,
+            autoWidth:true, 
             loop:true,
             onSliderLoad: function() {
                 $('#database').removeClass('cS-hidden');
