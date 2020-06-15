@@ -10,7 +10,7 @@ function Loading(){
         span.classList.add('trace');
         loading.appendChild(span);
     }    
-    intro.appendChild(loading);  
+    intro.appendChild(loading);
 
     //wait for 
     setTimeout(()=>{
