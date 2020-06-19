@@ -3,10 +3,6 @@
     width: 100%;
 }
 
-#about-me .wrap .container.front-end{}
-#about-me .wrap .container.back-end{}
-#about-me .wrap .container.database{}
-
 #about-me .wrap .container .photo{
     width: 50%;
     text-align: center;
@@ -29,12 +25,25 @@
     text-align: center;
 }
 
-#about-me .wrap .container .description p{
+#about-me .wrap .container .description tr th{
+    float: left;
+    font-family: 'DM Mono', monospace;
+}
+#about-me .wrap .container .description tr td{
+    font-family: 'Raleway', sans-serif;
+}
+
+#about-me .wrap .container .description p,
+#about-me .wrap .container .description p a{
     font-family: 'DM Mono', monospace;
     margin: 20px 0px;
     text-align: justify;
     /* font-family: 'Raleway', sans-serif; */
     /* font-family: 'Montserrat',sans-serif; */
+}
+#about-me .wrap .container .description p a{
+    color: rgb(43, 120, 139);
+    text-decoration: solid;
 }
 
 #about-me .wrap .container .field{

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    const w = window.matchMedia("(max-width: 600px)");
+    const w = window.matchMedia("(max-width: 800px)");
     if(w.matches){
         $('#front-end').lightSlider({
             autoWidth:true,

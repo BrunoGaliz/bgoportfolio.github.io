@@ -10,7 +10,6 @@
 
 #about-me .wrap .container .field .card .face-icon{
     height: 90%;
-    /* background: blue; */
     margin: 0;
     width: 80%;
     position: absolute;
@@ -21,7 +20,6 @@
     justify-content: center;
     align-items: center;
     box-shadow: 0 5px 5px rgba(0,0,0,0.5);
-    /* background: linear-gradient(45deg,white,#e34e36, transparent); */
     background-size: 10000%, 10000%;
 }
 
@@ -42,46 +40,25 @@
     top: 10px;
 }
 
-
-.angular {
-    background: linear-gradient(45deg,white,#e34e36, transparent);
-} 
-.react {
-    background: linear-gradient(45deg,white,#49aac3, transparent);
-} 
-.vue {
-    background: linear-gradient(45deg,white,#367755, transparent);
-}
-.html5 {
-    background: linear-gradient(45deg,white,#e44d26, transparent);
-}
-.css {
-    background: linear-gradient(45deg,white,#2070bb, transparent);
-}
-.js {
-    background: linear-gradient(45deg,white,#e6a329, transparent);
-}
-.gulp {
-    background: linear-gradient(45deg,white,#9e3c37, transparent);
-}
-.sass {
-    background: linear-gradient(45deg,white,#964c71, transparent);
-}
-.nodejs {
-    background: linear-gradient(45deg,white,#3e863d, transparent);
-}
-.typescript{
-    background: linear-gradient(45deg,white,#1e5b96, transparent);
-}
-.mongodb{
-    background: linear-gradient(45deg,white,#58b958, transparent);
-}
-.redis{
-    background: linear-gradient(45deg,white,#a53618, transparent);
-}
-.mysql{
-    background: linear-gradient(45deg,white,#929191, transparent);
-}
-.sqlite{
-    background: linear-gradient(45deg,white,#69bde9, transparent);
-}
+/* Front-end */
+.angular {background: linear-gradient(45deg,white,#e34e36, #b63d31, transparent);} 
+.react {background: linear-gradient(45deg,white,#49aac3, transparent);} 
+.vue {background: linear-gradient(45deg,white,#367755, #54b883, transparent);}
+.html5 {background: linear-gradient(45deg,white,#e44d26, transparent);}
+.css {background: linear-gradient(45deg,white,#2070bb, transparent);}
+.js {background: linear-gradient(45deg,white,#e6a329, transparent);}
+.gulp {background: linear-gradient(45deg,white,#9e3c37, transparent);}
+.sass {background: linear-gradient(45deg,white,#964c71, transparent);}
+/* Back-end */
+.nodejs {background: linear-gradient(45deg,white,#3e863d, transparent);}
+.typescript{background: linear-gradient(45deg,white,#1e5b96, transparent);}
+/* Database */
+.mongodb{background: linear-gradient(45deg,white,#58b958,#8e704e, transparent);}
+.redis{background: linear-gradient(45deg,white,#a53618, transparent);}
+.mysql{background: linear-gradient(45deg,white,#929191, transparent);}
+.sqlite{background: linear-gradient(45deg,white,#69bde9, transparent);}
+.postgresql{background: linear-gradient(45deg,white,#336790, #3e6f96, transparent);}
+/* Others */
+.linux{background: linear-gradient(45deg,white,#9f9f9f, transparent);}
+.git{background: linear-gradient(45deg,white,#ed5133, transparent);}
+.google-cloud{background: linear-gradient(45deg,white,#4284f4, #eb5034, #f8bc19, transparent);}

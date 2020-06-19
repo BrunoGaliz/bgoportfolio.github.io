@@ -3,3 +3,137 @@
     width: 100%;
     background: #3C4856;
 }
+#contact-me .wrap{
+    margin-bottom: 0;
+    height: 100%;
+}
+#contact-me .wrap .container,
+#contact-me .wrap .container .content{ 
+    height: 100%; 
+}
+#contact-me .container .content .field { height: 95%; }
+
+#contact-me .container .content .field {
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+#contact-me .container .content .field .contact .container .description{
+    text-align: center;
+}
+#contact-me .container .content .field .contact .container .description h2 {
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-family: 'Montserrat',sans-serif; */
+    font-family: 'DM Mono', monospace;
+    color: white;
+}
+
+
+#contact-me .container .content .field .contact .container .list-contacts{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#contact-me .container .content .field .contact .container .list-contacts li{
+    list-style: none;
+    width: 300px;
+    margin: 30px;
+    line-height: 30px;
+}
+#contact-me .container .content .field .contact .container .list-contacts li img{
+    width: 70px;
+}
+#contact-me .container .content .field .contact .container .list-contacts li h5{
+    color: #06f1b6;
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-family: 'Montserrat',sans-serif; */
+    font-family: 'DM Mono', monospace;
+    font-size: 19px;
+}
+#contact-me .container .content .field .contact .container .list-contacts li p,
+#contact-me .container .content .field .contact .container .list-contacts li p a{
+    color: white;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Montserrat',sans-serif;
+    /* font-family: 'DM Mono', monospace; */
+    text-decoration: none;
+} 
+
+#contact-me .container .content .field .download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-me .container .content .field .download .curriculum-image{}
+#contact-me .container .content .field .download .curriculum-description{
+    padding: 10px;
+}
+#contact-me .container .content .field .download .curriculum-description h5{
+    color: #06f1b6;
+    font-size: 20px;
+    font-family: 'DM Mono', monospace;
+}
+#contact-me .container .content .field .download .curriculum-description span{
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+}
+#contact-me .container .content .field .download .curriculum-description .download-curriculum{
+    text-align: center;
+}
+#contact-me .container .content .field .download .curriculum-description .download-curriculum button{
+    border: none;
+    width: 50%;
+    height: 35px;
+    background-color: #06f1b6;
+    border-radius: 7px;
+    color: #3C4856;
+    font-weight: bold;
+    margin: 5px;
+    font-family: 'DM Mono', monospace;
+}
+
+#contact-me .container .content .field .download img{
+    width: 80px;
+}
+
+
+#contact-me .container .content footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-me .container .content footer span,
+#contact-me .container .content footer span a{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'DM Mono', monospace; */
+    /* font-family: 'Montserrat',sans-serif; */
+    text-decoration: none;
+}
+#contact-me .container .content footer .copyright{
+    width: 70%;
+}
+#contact-me .container .content footer .copyright span a{
+    font-family: 'DM Mono', monospace;
+}
+
+#contact-me .container .content footer .social-media{
+    width: 30%;
+}
+#contact-me .container .content footer .social-media ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-me .container .content footer .social-media ul li{
+    margin: 0 20px;
+}
+#contact-me .container .content footer .social-media ul li a img{
+    width: 20px;
+}
+
+
+@media screen and (max-width: 900px){
+    #contact-me .wrap{
+        margin: 20px 10px 0px 10px;
+    }
+}

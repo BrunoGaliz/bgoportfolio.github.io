@@ -2,7 +2,7 @@
 .loading #about-me, 
 .loading #contact-me, 
 .loading div,
-.loading #intro .toolbar{
+.loading .toolbar{
     display: none;
 }
 
@@ -24,30 +24,11 @@
     animation: shadow-load 1s infinite;
 }
 
-.loading .trace:nth-child(2){
-    animation-delay: 0.1s;
-}
-
-.loading .trace:nth-child(3){
-    animation-delay: 0.2s;
-}
-
-.loading .trace:nth-child(4){
-    animation-delay: 0.3s;
-}
-
-.loading .trace:nth-child(5){
-    animation-delay: 0.4s;
-}
-
-.loading .trace:nth-child(6){
-    animation-delay: 0.5s;
-}
-
-.loading .trace:nth-child(7){
-    animation-delay: 0.6s;
-}
-
-.loading .trace:nth-child(8){
-    animation-delay: 0.7s;
-}
+/* Function that creates the effect load */
+.loading .trace:nth-child(2){ animation-delay: 0.1s; }
+.loading .trace:nth-child(3){ animation-delay: 0.2s; }
+.loading .trace:nth-child(4){ animation-delay: 0.3s; }
+.loading .trace:nth-child(5){ animation-delay: 0.4s; }
+.loading .trace:nth-child(6){ animation-delay: 0.5s; }
+.loading .trace:nth-child(7){ animation-delay: 0.6s; }
+.loading .trace:nth-child(8){ animation-delay: 0.7s; }

@@ -8,41 +8,9 @@
     display: table;
 }
 
-#intro .toolbar {
-    height: 120px;
-    width: 100%;
-    display: table;
-}
-
-#intro .toolbar ul{
-    display: table-cell;
-    vertical-align: middle;
-}
-
-#intro .toolbar ul li{
-    display: inline-block;
-    font-family: 'DM Mono', monospace;
-    color: #e8e8e7;
-    text-align: center;
-    width: 30%;
-    cursor: pointer;
-}
-
-#intro .toolbar ul .about{
-    float: right;
-}
-
-#intro .toolbar ul .about:hover{
-    font-weight: 700;
-}
-
-#intro .toolbar ul .contact:hover{
-    font-weight: 700;
-}
-
 #intro .container{
     text-align: center;
-    /* margin-top: 30px; */
+    margin-top: 120px;
 }
 
 #intro .container .content .presentation{
