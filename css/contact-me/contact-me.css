@@ -48,8 +48,10 @@
     font-family: 'DM Mono', monospace;
     font-size: 19px;
 }
-#contact-me .container .content .field .contact .container .list-contacts li p,
-#contact-me .container .content .field .contact .container .list-contacts li p a{
+#contact-me .container .content .field .contact .container .list-contacts li a{
+    text-decoration: none;
+}
+#contact-me .container .content .field .contact .container .list-contacts li p{
     color: white;
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Montserrat',sans-serif;
