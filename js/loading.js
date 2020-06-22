@@ -15,5 +15,5 @@ function Loading(){
     //wait for 
     setTimeout(()=>{
         document.getElementsByTagName('body').item(0).classList.remove('loading');
-    },2000);
+    },1000);
 }
