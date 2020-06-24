@@ -88,9 +88,6 @@
     #about-me .wrap .container .photo, #about-me .wrap .container .description{
         width: 100%;
     }
-}
-
-@media screen and (max-width: 450px){
     #about-me .wrap{
         margin: 10px;
     }
