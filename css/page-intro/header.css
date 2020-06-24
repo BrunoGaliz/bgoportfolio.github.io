@@ -1,14 +1,15 @@
 .toolbar {
     height: 120px;
     width: 100%;
-    display: table;
+    display: inline-block;
     position: absolute;
     z-index: 2;
 }
 
 .toolbar ul{
-    display: table-cell;
-    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
 }
 
 .toolbar ul li{
