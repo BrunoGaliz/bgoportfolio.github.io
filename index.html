@@ -59,10 +59,12 @@
 <body onload="Loading()" class="loading">
     <!-- Intro section -->
     <header class="toolbar">
-        <ul>
-            <li class="contact" onclick="GoDowntoContactMe()">Contato</li>
-            <li class="about" onclick="GoDownToAboutMe()">Sobre</li>
-        </ul>
+        <div class="wrap">
+            <ul>
+                <li class="contact" onclick="GoDowntoContactMe()">Contato</li>
+                <li class="about" onclick="GoDownToAboutMe()">Sobre</li>
+            </ul>
+        </div>
     </header>
     <main>
         <section id="intro">
@@ -283,7 +285,8 @@
                                         <h4>Desenvolvedor Full-Stack</h4>
                                         <p>Desenvolvedor Full-Stack no site <a href="https://www.reduza.com.br">Reduza</a>, 
                                             o site que ajuda seus consumidores a pagarem mais barato na internet utilizando robôs como recurso 
-                                            para encontrar descontos em produtos de compra pela internet.
+                                            para encontrar descontos em produtos de compra pela internet. Obtive experiência utilizando as técnologias:
+                                            AngularJS, NodeJS utilizando Typescript, MongoDB, Gulp, Sass, EJS e entre outras...
                                         </p>                           
                                     </div>
                                 </div>
@@ -295,7 +298,7 @@
         </section>
 
         <!-- This section shows how to contact me -->
-        <div id="contact-me">
+        <section id="contact-me">
             <div class="wrap">
                 <div class="container">
                     <div class="content">
@@ -384,7 +387,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 </body>
 
