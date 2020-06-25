@@ -52,6 +52,7 @@
 /* Back-end */
 .nodejs {background: linear-gradient(45deg,white,#3e863d, transparent);}
 .typescript{background: linear-gradient(45deg,white,#1e5b96, transparent);}
+.npm{background: linear-gradient(45deg,white,#cc4536,#ff5744, transparent);}
 /* Database */
 .mongodb{background: linear-gradient(45deg,white,#58b958,#8e704e, transparent);}
 .redis{background: linear-gradient(45deg,white,#a53618, transparent);}
@@ -62,3 +63,4 @@
 .linux{background: linear-gradient(45deg,white,#9f9f9f, transparent);}
 .git{background: linear-gradient(45deg,white,#ed5133, transparent);}
 .google-cloud{background: linear-gradient(45deg,white,#4284f4, #eb5034, #f8bc19, transparent);}
+.heroku{background: linear-gradient(45deg,white,#6762a6,#b4b1d6, transparent);}
