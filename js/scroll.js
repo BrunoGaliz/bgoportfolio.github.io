@@ -10,5 +10,5 @@ function GoDownToAboutMe(){
  * This function brings me to the bottom of the page to show how to contact me.
  */
 function GoDowntoContactMe(){
-    document.body.scrollIntoView({behavior: 'smooth',block: 'end'});
+    document.getElementById('contact-me').scrollIntoView({behavior: 'smooth',block: 'end'});
 }
